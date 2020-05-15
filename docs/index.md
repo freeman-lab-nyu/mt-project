@@ -22,7 +22,7 @@ The code changes to write the data to the database are in files ```MT.js``` and 
 * minus, plus, or x (symbolizing multiplication)
 * condition 1
 * condition 2
-* # of bins
+* number of bins
 * value/range of bins
 
 Please see ```example.csv``` for details.
@@ -33,3 +33,6 @@ The data from webmt studies is stored in a ```response``` table in the PostgreSQ
 
 To view the database and its data, download Postgres and a GUI to interface with it onto your local machine. A popular, recommended GUI is [pgAdmin](https://www.pgadmin.org/). Once both are installed, you can connect to the database in AWS in pgAdmin. Please contact the lab manager for credential information.
 
+### APIs
+
+For more information on the [Node.JS API](https://github.com/freeman-lab-nyu/node-api) and [R API](https://github.com/freeman-lab-nyu/r-api), please see the documentation on the Github repositories.
